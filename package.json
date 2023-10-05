@@ -20,7 +20,8 @@
     "pg": "^8.4.0",
     "redis": "^4.6.10",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "0.3.17"
+    "typeorm": "0.3.17",
+    "zod": "^3.22.4"
   },
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only --exit-child src/app.ts",
