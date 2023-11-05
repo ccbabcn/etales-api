@@ -19,6 +19,8 @@ AppDataSource.initialize()
     const app = express();
 
     // TEMPLATE ENGINE
+    app.set("view engine", "pug");
+    app.set("views", `${__dirname}/views`);
 
     // MIDDLEWARE
 
